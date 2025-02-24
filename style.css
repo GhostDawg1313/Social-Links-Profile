@@ -1,0 +1,110 @@
+
+@media screen and (max-width: 1440px) {
+      
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+} 
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 140vh;
+    background-color:hsl(0, 0%, 12%);
+    margin-top: 100px; 
+    margin-right:auto; 
+    margin-left:auto;
+    margin-bottom: 100px;
+    text-align: center;
+    border-radius: 30px;
+
+}
+.headshot{
+    background-image: url('./assets/images/avatar-jessica.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+h1{
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+h2{
+    color:hsl(75, 94%, 57%);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    padding-bottom: 25px;
+}
+h3{
+    color: hsl(0, 1%, 66%);
+    font-size: 20px;
+    font-weight: 400;
+    font-stretch: ultra-expanded;
+    margin-top: 20px;
+}
+.button-div {
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 6%, 79%);
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.button-div:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    color:hsl(0, 0%, 100%); 
+}
+.attribution a { 
+    color: hsl(228, 69%, 74%); 
+}
+ }
+
+@media (max-width: 375px) {
+    .container {
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 90%;
+        height: auto;
+        min-height: 100vh;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    
+    .button-div{
+        margin: 20px;
+        margin-bottom: 13px;
+        
+        font-size: 13px;
+    }
+    
+    
+    
+}

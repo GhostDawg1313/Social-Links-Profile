@@ -33,8 +33,8 @@ To bulid out social link sharing profile:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/social-links-profile-page-haUzkPXunn)
-- Live Site URL: [Add live site URL here](https://sociallinksprofilepage.netlify.app/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/social-links-profile-page-haUzkPXunn)
+- Live Site URL: [Netlify](https://sociallinksprofilepage.netlify.app/)
 
 ## My process
 

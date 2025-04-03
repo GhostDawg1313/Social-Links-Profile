@@ -156,6 +156,7 @@ h3{
     }
 
     .attribution a {
+        text-align: center;
         color: hsl(228, 69%, 74%);
     }
 }

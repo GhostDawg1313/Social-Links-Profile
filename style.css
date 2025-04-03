@@ -1,6 +1,6 @@
 
-@media screen and (max-width: 1440px) {
-      
+    
+ 
 body{
     background-color: hsl(0, 0%, 8%);
     font-family: Arial, sans-serif;
@@ -11,7 +11,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 550px;
-    height: 140vh;
+    height: 120vh;
     background-color:hsl(0, 0%, 12%);
     margin-top: 100px; 
     margin-right:auto; 
@@ -77,34 +77,85 @@ h3{
 .attribution a { 
     color: hsl(228, 69%, 74%); 
 }
- }
+
 
 @media (max-width: 375px) {
+    body {
+        background-color: hsl(0, 0%, 8%);
+        font-size: 14px;
+    }
+
     .container {
-        margin: auto;
-        margin-top: 100px;
-        margin-bottom: 100px;
         width: 90%;
+        max-width: 350px;
         height: auto;
         min-height: 100vh;
+        background-color: hsl(0, 0%, 12%);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        margin: 80px auto;
+        text-align: center;
     }
-    h1{
-        font-size: 25px;
+
+    .headshot {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-top: 20px;
     }
-    h2{
-        font-size: 15px;
+
+    h1 {
+        font-size: 22px;
+        font-weight: 700;
+        color: white;
+        margin-top: 15px;
     }
-    h3{
-        font-size: 15px;
+
+    h2 {
+        font-size: 14px;
+        font-weight: 600;
+        color: hsl(75, 94%, 57%);
+        margin-top: 5px;
     }
-    
-    .button-div{
-        margin: 20px;
-        margin-bottom: 13px;
-        
-        font-size: 13px;
+
+    h3 {
+        font-size: 14px;
+        font-weight: 400;
+        color: hsl(0, 1%, 66%);
+        margin-top: 10px;
     }
-    
-    
-    
+
+    .button-div {
+        width: 85%;
+        background-color: hsl(0, 0%, 20%);
+        color: hsl(0, 6%, 79%);
+        font-size: 14px;
+        font-weight: 700;
+        padding: 12px;
+        border-radius: 10px;
+        margin: 10px auto;
+        text-align: center;
+        cursor: pointer;
+        transition: background 0.3s ease-in-out;
+    }
+
+    .button-div:hover {
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 100%);
+    }
+
+    .attribution {
+        font-size: 10px;
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+        margin-top: 20px;
+    }
+
+    .attribution a {
+        color: hsl(228, 69%, 74%);
+    }
 }
